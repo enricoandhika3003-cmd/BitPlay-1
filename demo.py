@@ -34,7 +34,7 @@ number = int(input("Enter a number: "))
 n = int(input("Enter a bit number: "))
 setOrNot(number, n)
 
-#Rightmost Setbit
+#FirstSetBit
 import math
 
 def setbitPosition(n):
