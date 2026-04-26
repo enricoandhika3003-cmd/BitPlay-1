@@ -48,4 +48,4 @@ def setbitPosition(n):
 n = int(input("Enter number: "))
 
 post = setbitPosition(n)
-print(f"Position of the first set bit in {n} is {post}.")
+print(f"Position of the first set bit in {n}: {post}.")
