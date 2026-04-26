@@ -42,7 +42,7 @@ def setbitPosition(n):
         return 0
     
     rightmost = n & -n
-    position = int(math.log2(rightmost)) + 1
+    position = int(math.log2(rightmost))+1
     return position
 
 n = int(input("Enter number: "))
