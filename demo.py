@@ -33,3 +33,19 @@ def setOrNot(number , n):
 number = int(input("Enter a number: "))
 n = int(input("Enter a bit number: "))
 setOrNot(number, n)
+
+#Rightmost Setbit
+import math
+
+def setbitPosition(n):
+    if n == 0:
+        return 0
+    
+    rightmost = n & -n
+    position = int(math.log2(rightmost)) + 1
+    return position
+
+n = int(input("Enter number: "))
+
+post = setbitPosition(n)
+print(f"Position of the first set bit in {n} is {post}.")
